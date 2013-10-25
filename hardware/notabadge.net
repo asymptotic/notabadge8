@@ -1,0 +1,1250 @@
+# EESchema Netlist Version 1.1 created  3/16/2011 9:59:37 PM
+(
+ ( /4D66F9CE $noname  P7 NAME {Lib=CONN_1}
+  (    1 N-000035 )
+ )
+ ( /4D66F9A9 $noname  C7 22nF {Lib=C}
+  (    1 /SNSK )
+  (    2 /SNS )
+ )
+ ( /4D66F98A $noname  R10 1k {Lib=R}
+  (    1 N-000035 )
+  (    2 /SNSK )
+ )
+ ( /4D62E1E4 $noname  BT1 BATTERY {Lib=BATTERY}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /4D62E1DD $noname  BT2 BATTERY {Lib=BATTERY}
+  (    1 N-000034 )
+  (    2 N-000037 )
+ )
+ ( /4D5DAE23 $noname  R9 10k {Lib=R}
+  (    1 GND )
+  (    2 /GAS )
+ )
+ ( /4D5DADA9 $noname  R8 100 {Lib=R}
+  (    1 N-000005 )
+  (    2 GND )
+ )
+ ( /4D5DADA8 $noname  R7 100 {Lib=R}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /4D5DADA7 $noname  D6 BLUE1 {Lib=LED}
+  (    1 /BLUE1 )
+  (    2 N-000004 )
+ )
+ ( /4D5DADA6 $noname  D7 BLUE2 {Lib=LED}
+  (    1 /MOSI )
+  (    2 N-000005 )
+ )
+ ( /4D5DADA3 $noname  D5 GREEN2 {Lib=LED}
+  (    1 /GREEN2 )
+  (    2 N-000014 )
+ )
+ ( /4D5DADA2 $noname  D4 GREEN1 {Lib=LED}
+  (    1 /GREEN1 )
+  (    2 N-000012 )
+ )
+ ( /4D5DADA1 $noname  R5 150 {Lib=R}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4D5DADA0 $noname  R6 150 {Lib=R}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /4D5DAD76 $noname  U2 GAS_SENSOR {Lib=GAS_SENSOR}
+  (   A1 VCC )
+  (   B1 /GAS )
+  (   H1 VCC )
+  (   H2 GND )
+ )
+ ( /4CA3987C $noname  Y1 RESONATOR {Lib=RESONATEUR}
+  (    1 N-000027 )
+  (    2 GND )
+  (    3 N-000011 )
+ )
+ ( /4C019E50 $noname  R4 150 {Lib=R}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4BFDA5FA $noname  U1 LM2931/LM2940 {Lib=LM7805}
+  (   VI N-000034 )
+  (   VO VCC )
+  (  GND GND )
+ )
+ ( /4BFC8109 $noname  R3 150 {Lib=R}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4BFC80FE $noname  D2 RED1 {Lib=LED}
+  (    1 /RED1 )
+  (    2 N-000001 )
+ )
+ ( /4BFC80F9 $noname  D3 RED2 {Lib=LED}
+  (    1 /RED2 )
+  (    2 N-000010 )
+ )
+ ( /4BFC8038 $noname  SW1 RESET {Lib=SW_PUSH_SMALL}
+  (    1 GND )
+  (    2 /RESET )
+ )
+ ( /4BFC5882 $noname  C6 0.1uF {Lib=C}
+  (    1 N-000020 )
+  (    2 /RESET )
+ )
+ ( /4BFC5797 $noname  C3 0.1uF {Lib=C}
+  (    1 /AREF )
+  (    2 GND )
+ )
+ ( /4BFC5553 $noname  P2 PORTC {Lib=CONN_8}
+  (    1 /AREF )
+  (    2 GND )
+  (    3 /GAS )
+  (    4 N-000024 )
+  (    5 /SNS )
+  (    6 /SNSK )
+  (    7 N-000023 )
+  (    8 N-000022 )
+ )
+ ( /4BFC554E $noname  P3 PORTD {Lib=CONN_8}
+  (    1 /RXD )
+  (    2 /TXD )
+  (    3 N-000017 )
+  (    4 /RED1 )
+  (    5 N-000016 )
+  (    6 /RED2 )
+  (    7 /GREEN1 )
+  (    8 N-000032 )
+ )
+ ( /4BFC553E $noname  P4 PORTB {Lib=CONN_6}
+  (    1 N-000031 )
+  (    2 /GREEN2 )
+  (    3 /BLUE1 )
+  (    4 /MOSI )
+  (    5 /MISO )
+  (    6 /SCK )
+ )
+ ( /4BFC546D $noname  P5 ICSP {Lib=CONN_3X2}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
+ )
+ ( /4BFC52D1 $noname  R1 10k {Lib=R}
+  (    1 VCC )
+  (    2 /RESET )
+ )
+ ( /4BFC5197 $noname  C1 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BFC4FBC $noname  R2 1k {Lib=R}
+  (    1 VCC )
+  (    2 N-000033 )
+ )
+ ( /4BFC4FA3 $noname  D1 POWER {Lib=LED}
+  (    1 N-000033 )
+  (    2 GND )
+ )
+ ( /4BFC4ED5 $noname  C5 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BFC4ECB $noname  C4 100uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4BFC4EC6 $noname  C2 0.1uF {Lib=CP1}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /4BFC4E8C $noname  P1 POWER {Lib=CONN_2}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /4BFC4E2C $noname  P6 TTL-232R {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 VCC )
+  (    4 /RXD )
+  (    5 /TXD )
+  (    6 N-000020 )
+ )
+ ( /4BF98A3C DIL28  IC1 ATMEGA328 {Lib=ATMEGA8-P}
+  (    1 /RESET )
+  (    2 /RXD )
+  (    3 /TXD )
+  (    4 N-000017 )
+  (    5 /RED1 )
+  (    6 N-000016 )
+  (    7 VCC )
+  (    8 GND )
+  (    9 N-000027 )
+  (   10 N-000011 )
+  (   11 /RED2 )
+  (   12 /GREEN1 )
+  (   13 N-000032 )
+  (   14 N-000031 )
+  (   15 /GREEN2 )
+  (   16 /BLUE1 )
+  (   17 /MOSI )
+  (   18 /MISO )
+  (   19 /SCK )
+  (   20 VCC )
+  (   21 /AREF )
+  (   22 GND )
+  (   23 /GAS )
+  (   24 N-000024 )
+  (   25 /SNS )
+  (   26 /SNSK )
+  (   27 N-000023 )
+  (   28 N-000022 )
+ )
+ ( /4D616CAA/4D617201 $noname  U3 GROUND1 {Lib=SIL26}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
+  (   10 GND )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+  (   17 GND )
+  (   18 GND )
+  (   19 GND )
+  (   20 GND )
+  (   21 GND )
+  (   22 GND )
+  (   23 GND )
+  (   24 GND )
+  (   25 GND )
+  (   26 GND )
+ )
+ ( /4D616CAA/4D6171E5 $noname  U7 POWER1 {Lib=SIL26}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 VCC )
+  (    8 VCC )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 VCC )
+  (   12 VCC )
+  (   13 VCC )
+  (   14 VCC )
+  (   15 VCC )
+  (   16 VCC )
+  (   17 VCC )
+  (   18 VCC )
+  (   19 VCC )
+  (   20 VCC )
+  (   21 VCC )
+  (   22 VCC )
+  (   23 VCC )
+  (   24 VCC )
+  (   25 VCC )
+  (   26 VCC )
+ )
+ ( /4D616CAA/4D6171C1 $noname  U6 COL2 {Lib=SIL26}
+  (    1 /protoarea/ROW27 )
+  (    2 /protoarea/ROW28 )
+  (    3 /protoarea/ROW29 )
+  (    4 /protoarea/ROW30 )
+  (    5 /protoarea/ROW31 )
+  (    6 /protoarea/ROW32 )
+  (    7 /protoarea/ROW33 )
+  (    8 /protoarea/ROW34 )
+  (    9 /protoarea/ROW35 )
+  (   10 /protoarea/ROW36 )
+  (   11 /protoarea/ROW37 )
+  (   12 /protoarea/ROW38 )
+  (   13 /protoarea/ROW39 )
+  (   14 /protoarea/ROW40 )
+  (   15 /protoarea/ROW41 )
+  (   16 /protoarea/ROW42 )
+  (   17 /protoarea/ROW43 )
+  (   18 /protoarea/ROW44 )
+  (   19 /protoarea/ROW45 )
+  (   20 /protoarea/ROW46 )
+  (   21 /protoarea/ROW47 )
+  (   22 /protoarea/ROW48 )
+  (   23 /protoarea/ROW49 )
+  (   24 /protoarea/ROW50 )
+  (   25 /protoarea/ROW51 )
+  (   26 /protoarea/ROW52 )
+ )
+ ( /4D616CAA/4D6171C0 $noname  U4 COL1 {Lib=SIL26}
+  (    1 /protoarea/ROW27 )
+  (    2 /protoarea/ROW28 )
+  (    3 /protoarea/ROW29 )
+  (    4 /protoarea/ROW30 )
+  (    5 /protoarea/ROW31 )
+  (    6 /protoarea/ROW32 )
+  (    7 /protoarea/ROW33 )
+  (    8 /protoarea/ROW34 )
+  (    9 /protoarea/ROW35 )
+  (   10 /protoarea/ROW36 )
+  (   11 /protoarea/ROW37 )
+  (   12 /protoarea/ROW38 )
+  (   13 /protoarea/ROW39 )
+  (   14 /protoarea/ROW40 )
+  (   15 /protoarea/ROW41 )
+  (   16 /protoarea/ROW42 )
+  (   17 /protoarea/ROW43 )
+  (   18 /protoarea/ROW44 )
+  (   19 /protoarea/ROW45 )
+  (   20 /protoarea/ROW46 )
+  (   21 /protoarea/ROW47 )
+  (   22 /protoarea/ROW48 )
+  (   23 /protoarea/ROW49 )
+  (   24 /protoarea/ROW50 )
+  (   25 /protoarea/ROW51 )
+  (   26 /protoarea/ROW52 )
+ )
+ ( /4D616CAA/4D6171B7 $noname  U8 COL3 {Lib=SIL26}
+  (    1 /protoarea/ROW27 )
+  (    2 /protoarea/ROW28 )
+  (    3 /protoarea/ROW29 )
+  (    4 /protoarea/ROW30 )
+  (    5 /protoarea/ROW31 )
+  (    6 /protoarea/ROW32 )
+  (    7 /protoarea/ROW33 )
+  (    8 /protoarea/ROW34 )
+  (    9 /protoarea/ROW35 )
+  (   10 /protoarea/ROW36 )
+  (   11 /protoarea/ROW37 )
+  (   12 /protoarea/ROW38 )
+  (   13 /protoarea/ROW39 )
+  (   14 /protoarea/ROW40 )
+  (   15 /protoarea/ROW41 )
+  (   16 /protoarea/ROW42 )
+  (   17 /protoarea/ROW43 )
+  (   18 /protoarea/ROW44 )
+  (   19 /protoarea/ROW45 )
+  (   20 /protoarea/ROW46 )
+  (   21 /protoarea/ROW47 )
+  (   22 /protoarea/ROW48 )
+  (   23 /protoarea/ROW49 )
+  (   24 /protoarea/ROW50 )
+  (   25 /protoarea/ROW51 )
+  (   26 /protoarea/ROW52 )
+ )
+ ( /4D616CAA/4D616F1A $noname  U5 GROUND2 {Lib=SIL26}
+  (    1 GND )
+  (    2 GND )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
+  (   10 GND )
+  (   11 GND )
+  (   12 GND )
+  (   13 GND )
+  (   14 GND )
+  (   15 GND )
+  (   16 GND )
+  (   17 GND )
+  (   18 GND )
+  (   19 GND )
+  (   20 GND )
+  (   21 GND )
+  (   22 GND )
+  (   23 GND )
+  (   24 GND )
+  (   25 GND )
+  (   26 GND )
+ )
+ ( /4D616CAA/4D616E8B $noname  U10 POWER2 {Lib=SIL26}
+  (    1 VCC )
+  (    2 VCC )
+  (    3 VCC )
+  (    4 VCC )
+  (    5 VCC )
+  (    6 VCC )
+  (    7 VCC )
+  (    8 VCC )
+  (    9 VCC )
+  (   10 VCC )
+  (   11 VCC )
+  (   12 VCC )
+  (   13 VCC )
+  (   14 VCC )
+  (   15 VCC )
+  (   16 VCC )
+  (   17 VCC )
+  (   18 VCC )
+  (   19 VCC )
+  (   20 VCC )
+  (   21 VCC )
+  (   22 VCC )
+  (   23 VCC )
+  (   24 VCC )
+  (   25 VCC )
+  (   26 VCC )
+ )
+ ( /4D616CAA/4D616E83 $noname  U9 COL4 {Lib=SIL26}
+  (    1 /protoarea/ROW27 )
+  (    2 /protoarea/ROW28 )
+  (    3 /protoarea/ROW29 )
+  (    4 /protoarea/ROW30 )
+  (    5 /protoarea/ROW31 )
+  (    6 /protoarea/ROW32 )
+  (    7 /protoarea/ROW33 )
+  (    8 /protoarea/ROW34 )
+  (    9 /protoarea/ROW35 )
+  (   10 /protoarea/ROW36 )
+  (   11 /protoarea/ROW37 )
+  (   12 /protoarea/ROW38 )
+  (   13 /protoarea/ROW39 )
+  (   14 /protoarea/ROW40 )
+  (   15 /protoarea/ROW41 )
+  (   16 /protoarea/ROW42 )
+  (   17 /protoarea/ROW43 )
+  (   18 /protoarea/ROW44 )
+  (   19 /protoarea/ROW45 )
+  (   20 /protoarea/ROW46 )
+  (   21 /protoarea/ROW47 )
+  (   22 /protoarea/ROW48 )
+  (   23 /protoarea/ROW49 )
+  (   24 /protoarea/ROW50 )
+  (   25 /protoarea/ROW51 )
+  (   26 /protoarea/ROW52 )
+ )
+ ( /4D616CAA/4D616E7A $noname  U11 COL5 {Lib=SIL26}
+  (    1 /protoarea/ROW1 )
+  (    2 /protoarea/ROW2 )
+  (    3 /protoarea/ROW3 )
+  (    4 /protoarea/ROW4 )
+  (    5 /protoarea/ROW5 )
+  (    6 /protoarea/ROW6 )
+  (    7 /protoarea/ROW7 )
+  (    8 /protoarea/ROW8 )
+  (    9 /protoarea/ROW9 )
+  (   10 /protoarea/ROW10 )
+  (   11 /protoarea/ROW11 )
+  (   12 /protoarea/ROW12 )
+  (   13 /protoarea/ROW13 )
+  (   14 /protoarea/ROW14 )
+  (   15 /protoarea/ROW15 )
+  (   16 /protoarea/ROW16 )
+  (   17 /protoarea/ROW17 )
+  (   18 /protoarea/ROW18 )
+  (   19 /protoarea/ROW19 )
+  (   20 /protoarea/ROW20 )
+  (   21 /protoarea/ROW21 )
+  (   22 /protoarea/ROW22 )
+  (   23 /protoarea/ROW23 )
+  (   24 /protoarea/ROW24 )
+  (   25 /protoarea/ROW25 )
+  (   26 /protoarea/ROW26 )
+ )
+ ( /4D616CAA/4D616E79 $noname  U12 COL6 {Lib=SIL26}
+  (    1 /protoarea/ROW1 )
+  (    2 /protoarea/ROW2 )
+  (    3 /protoarea/ROW3 )
+  (    4 /protoarea/ROW4 )
+  (    5 /protoarea/ROW5 )
+  (    6 /protoarea/ROW6 )
+  (    7 /protoarea/ROW7 )
+  (    8 /protoarea/ROW8 )
+  (    9 /protoarea/ROW9 )
+  (   10 /protoarea/ROW10 )
+  (   11 /protoarea/ROW11 )
+  (   12 /protoarea/ROW12 )
+  (   13 /protoarea/ROW13 )
+  (   14 /protoarea/ROW14 )
+  (   15 /protoarea/ROW15 )
+  (   16 /protoarea/ROW16 )
+  (   17 /protoarea/ROW17 )
+  (   18 /protoarea/ROW18 )
+  (   19 /protoarea/ROW19 )
+  (   20 /protoarea/ROW20 )
+  (   21 /protoarea/ROW21 )
+  (   22 /protoarea/ROW22 )
+  (   23 /protoarea/ROW23 )
+  (   24 /protoarea/ROW24 )
+  (   25 /protoarea/ROW25 )
+  (   26 /protoarea/ROW26 )
+ )
+ ( /4D616CAA/4D616E57 $noname  U14 COL8 {Lib=SIL26}
+  (    1 /protoarea/ROW1 )
+  (    2 /protoarea/ROW2 )
+  (    3 /protoarea/ROW3 )
+  (    4 /protoarea/ROW4 )
+  (    5 /protoarea/ROW5 )
+  (    6 /protoarea/ROW6 )
+  (    7 /protoarea/ROW7 )
+  (    8 /protoarea/ROW8 )
+  (    9 /protoarea/ROW9 )
+  (   10 /protoarea/ROW10 )
+  (   11 /protoarea/ROW11 )
+  (   12 /protoarea/ROW12 )
+  (   13 /protoarea/ROW13 )
+  (   14 /protoarea/ROW14 )
+  (   15 /protoarea/ROW15 )
+  (   16 /protoarea/ROW16 )
+  (   17 /protoarea/ROW17 )
+  (   18 /protoarea/ROW18 )
+  (   19 /protoarea/ROW19 )
+  (   20 /protoarea/ROW20 )
+  (   21 /protoarea/ROW21 )
+  (   22 /protoarea/ROW22 )
+  (   23 /protoarea/ROW23 )
+  (   24 /protoarea/ROW24 )
+  (   25 /protoarea/ROW25 )
+  (   26 /protoarea/ROW26 )
+ )
+ ( /4D616CAA/4D616CE0 $noname  U13 COL7 {Lib=SIL26}
+  (    1 /protoarea/ROW1 )
+  (    2 /protoarea/ROW2 )
+  (    3 /protoarea/ROW3 )
+  (    4 /protoarea/ROW4 )
+  (    5 /protoarea/ROW5 )
+  (    6 /protoarea/ROW6 )
+  (    7 /protoarea/ROW7 )
+  (    8 /protoarea/ROW8 )
+  (    9 /protoarea/ROW9 )
+  (   10 /protoarea/ROW10 )
+  (   11 /protoarea/ROW11 )
+  (   12 /protoarea/ROW12 )
+  (   13 /protoarea/ROW13 )
+  (   14 /protoarea/ROW14 )
+  (   15 /protoarea/ROW15 )
+  (   16 /protoarea/ROW16 )
+  (   17 /protoarea/ROW17 )
+  (   18 /protoarea/ROW18 )
+  (   19 /protoarea/ROW19 )
+  (   20 /protoarea/ROW20 )
+  (   21 /protoarea/ROW21 )
+  (   22 /protoarea/ROW22 )
+  (   23 /protoarea/ROW23 )
+  (   24 /protoarea/ROW24 )
+  (   25 /protoarea/ROW25 )
+  (   26 /protoarea/ROW26 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R3 1
+ D2 2
+Net 2 "GND" "GND"
+ U3 9
+ U3 8
+ U3 7
+ U3 6
+ U3 5
+ U3 10
+ U3 20
+ U3 11
+ U5 22
+ U5 13
+ U3 1
+ U3 2
+ C1 2
+ U3 4
+ U3 3
+ D1 2
+ U5 23
+ U5 14
+ U5 24
+ U5 15
+ U5 19
+ U5 18
+ U5 17
+ U5 26
+ U5 16
+ U5 25
+ BT1 2
+ U3 21
+ U3 12
+ U3 22
+ U3 13
+ U3 23
+ U3 14
+ U3 24
+ U3 15
+ U3 25
+ U3 17
+ U3 26
+ U3 16
+ U2 H2
+ U5 6
+ U5 7
+ U5 8
+ R6 2
+ R5 2
+ R3 2
+ SW1 1
+ U5 9
+ P6 1
+ P1 2
+ U3 19
+ P2 2
+ R7 2
+ R8 2
+ U5 1
+ U5 2
+ U5 3
+ U5 4
+ R9 1
+ U5 5
+ U1 GND
+ R4 2
+ Y1 2
+ U5 20
+ U5 11
+ C3 2
+ IC1 22
+ IC1 8
+ U5 21
+ U5 12
+ P5 6
+ U3 18
+ C5 2
+ C2 2
+ U5 10
+ C4 2
+Net 3 "/RESET" "RESET"
+ C6 2
+ P5 5
+ R1 2
+ IC1 1
+ SW1 2
+Net 4 "" ""
+ R7 1
+ D6 2
+Net 5 "" ""
+ R8 1
+ D7 2
+Net 6 "/RED1" "RED1"
+ P3 4
+ IC1 5
+ D2 1
+Net 7 "/RED2" "RED2"
+ IC1 11
+ P3 6
+ D3 1
+Net 8 "/BLUE1" "BLUE1"
+ D6 1
+ IC1 16
+ P4 3
+Net 10 "" ""
+ D3 2
+ R4 1
+Net 11 "" ""
+ IC1 10
+ Y1 3
+Net 12 "" ""
+ D4 2
+ R5 1
+Net 13 "/GREEN1" "GREEN1"
+ P3 7
+ IC1 12
+ D4 1
+Net 14 "" ""
+ D5 2
+ R6 1
+Net 15 "/GREEN2" "GREEN2"
+ D5 1
+ P4 2
+ IC1 15
+Net 16 "" ""
+ IC1 6
+ P3 5
+Net 17 "" ""
+ P3 3
+ IC1 4
+Net 18 "/TXD" "TXD"
+ IC1 3
+ P6 5
+ P3 2
+Net 19 "/RXD" "RXD"
+ P6 4
+ IC1 2
+ P3 1
+Net 20 "" ""
+ P6 6
+ C6 1
+Net 21 "VCC" "VCC"
+ U10 14
+ U7 2
+ U10 16
+ U10 25
+ U10 26
+ U10 17
+ U10 15
+ U10 24
+ U7 1
+ U7 21
+ U7 12
+ U7 22
+ U7 13
+ U7 23
+ U7 14
+ U7 24
+ U7 15
+ U7 25
+ U7 16
+ U7 26
+ U7 17
+ U7 18
+ U7 3
+ U7 4
+ U7 5
+ U7 6
+ U7 7
+ U7 8
+ U7 9
+ U7 10
+ U10 18
+ U10 19
+ U7 20
+ U7 11
+ U7 19
+ U1 VO
+ U2 H1
+ U2 A1
+ P6 3
+ C4 1
+ IC1 20
+ IC1 7
+ P5 2
+ C5 1
+ R2 1
+ C1 1
+ R1 1
+ U10 20
+ U10 10
+ U10 9
+ U10 8
+ U10 7
+ U10 6
+ U10 5
+ U10 4
+ U10 3
+ U10 2
+ U10 1
+ U10 11
+ U10 21
+ U10 12
+ U10 22
+ U10 13
+ U10 23
+Net 22 "" ""
+ IC1 28
+ P2 8
+Net 23 "" ""
+ IC1 27
+ P2 7
+Net 24 "" ""
+ IC1 24
+ P2 4
+Net 25 "/GAS" "GAS"
+ P2 3
+ R9 2
+ U2 B1
+ IC1 23
+Net 26 "/AREF" "AREF"
+ P2 1
+ IC1 21
+ C3 1
+Net 27 "" ""
+ IC1 9
+ Y1 1
+Net 28 "/MOSI" "MOSI"
+ P5 4
+ IC1 17
+ D7 1
+ P4 4
+Net 29 "/MISO" "MISO"
+ P5 1
+ P4 5
+ IC1 18
+Net 30 "/SCK" "SCK"
+ IC1 19
+ P5 3
+ P4 6
+Net 31 "" ""
+ P4 1
+ IC1 14
+Net 32 "" ""
+ P3 8
+ IC1 13
+Net 33 "" ""
+ D1 1
+ R2 2
+Net 34 "" ""
+ C2 1
+ P1 1
+ U1 VI
+ BT2 1
+Net 35 "" ""
+ P7 1
+ R10 1
+Net 36 "/SNSK" "SNSK"
+ C7 1
+ R10 2
+ P2 6
+ IC1 26
+Net 37 "" ""
+ BT1 1
+ BT2 2
+Net 38 "/SNS" "SNS"
+ IC1 25
+ C7 2
+ P2 5
+Net 39 "/protoarea/ROW27" "ROW27"
+ U6 1
+ U4 1
+ U9 1
+ U8 1
+Net 40 "/protoarea/ROW28" "ROW28"
+ U6 2
+ U4 2
+ U8 2
+ U9 2
+Net 41 "/protoarea/ROW52" "ROW52"
+ U4 26
+ U9 26
+ U6 26
+ U8 26
+Net 42 "/protoarea/ROW51" "ROW51"
+ U4 25
+ U6 25
+ U8 25
+ U9 25
+Net 43 "/protoarea/ROW50" "ROW50"
+ U4 24
+ U6 24
+ U8 24
+ U9 24
+Net 44 "/protoarea/ROW49" "ROW49"
+ U6 23
+ U4 23
+ U9 23
+ U8 23
+Net 45 "/protoarea/ROW48" "ROW48"
+ U9 22
+ U6 22
+ U4 22
+ U8 22
+Net 46 "/protoarea/ROW47" "ROW47"
+ U9 21
+ U6 21
+ U8 21
+ U4 21
+Net 47 "/protoarea/ROW46" "ROW46"
+ U6 20
+ U4 20
+ U8 20
+ U9 20
+Net 48 "/protoarea/ROW45" "ROW45"
+ U8 19
+ U6 19
+ U9 19
+ U4 19
+Net 49 "/protoarea/ROW44" "ROW44"
+ U4 18
+ U9 18
+ U6 18
+ U8 18
+Net 50 "/protoarea/ROW43" "ROW43"
+ U9 17
+ U4 17
+ U6 17
+ U8 17
+Net 51 "/protoarea/ROW42" "ROW42"
+ U4 16
+ U8 16
+ U6 16
+ U9 16
+Net 52 "/protoarea/ROW41" "ROW41"
+ U8 15
+ U9 15
+ U4 15
+ U6 15
+Net 53 "/protoarea/ROW40" "ROW40"
+ U9 14
+ U8 14
+ U4 14
+ U6 14
+Net 54 "/protoarea/ROW39" "ROW39"
+ U4 13
+ U9 13
+ U8 13
+ U6 13
+Net 55 "/protoarea/ROW38" "ROW38"
+ U4 12
+ U9 12
+ U8 12
+ U6 12
+Net 56 "/protoarea/ROW37" "ROW37"
+ U6 11
+ U9 11
+ U4 11
+ U8 11
+Net 57 "/protoarea/ROW36" "ROW36"
+ U6 10
+ U8 10
+ U9 10
+ U4 10
+Net 58 "/protoarea/ROW35" "ROW35"
+ U8 9
+ U6 9
+ U9 9
+ U4 9
+Net 59 "/protoarea/ROW34" "ROW34"
+ U8 8
+ U6 8
+ U9 8
+ U4 8
+Net 60 "/protoarea/ROW33" "ROW33"
+ U8 7
+ U4 7
+ U9 7
+ U6 7
+Net 61 "/protoarea/ROW32" "ROW32"
+ U6 6
+ U4 6
+ U8 6
+ U9 6
+Net 62 "/protoarea/ROW31" "ROW31"
+ U8 5
+ U6 5
+ U4 5
+ U9 5
+Net 63 "/protoarea/ROW30" "ROW30"
+ U9 4
+ U8 4
+ U4 4
+ U6 4
+Net 64 "/protoarea/ROW29" "ROW29"
+ U9 3
+ U8 3
+ U4 3
+ U6 3
+Net 65 "/protoarea/ROW19" "ROW19"
+ U14 19
+ U12 19
+ U11 19
+ U13 19
+Net 66 "/protoarea/ROW1" "ROW1"
+ U12 1
+ U11 1
+ U13 1
+ U14 1
+Net 67 "/protoarea/ROW2" "ROW2"
+ U14 2
+ U12 2
+ U13 2
+ U11 2
+Net 68 "/protoarea/ROW3" "ROW3"
+ U11 3
+ U14 3
+ U12 3
+ U13 3
+Net 69 "/protoarea/ROW4" "ROW4"
+ U13 4
+ U11 4
+ U12 4
+ U14 4
+Net 70 "/protoarea/ROW5" "ROW5"
+ U12 5
+ U13 5
+ U14 5
+ U11 5
+Net 71 "/protoarea/ROW6" "ROW6"
+ U12 6
+ U11 6
+ U13 6
+ U14 6
+Net 72 "/protoarea/ROW7" "ROW7"
+ U14 7
+ U13 7
+ U11 7
+ U12 7
+Net 73 "/protoarea/ROW8" "ROW8"
+ U13 8
+ U12 8
+ U11 8
+ U14 8
+Net 74 "/protoarea/ROW9" "ROW9"
+ U13 9
+ U11 9
+ U12 9
+ U14 9
+Net 75 "/protoarea/ROW10" "ROW10"
+ U11 10
+ U12 10
+ U14 10
+ U13 10
+Net 76 "/protoarea/ROW20" "ROW20"
+ U14 20
+ U11 20
+ U12 20
+ U13 20
+Net 77 "/protoarea/ROW11" "ROW11"
+ U12 11
+ U13 11
+ U14 11
+ U11 11
+Net 78 "/protoarea/ROW21" "ROW21"
+ U12 21
+ U11 21
+ U14 21
+ U13 21
+Net 79 "/protoarea/ROW12" "ROW12"
+ U12 12
+ U11 12
+ U14 12
+ U13 12
+Net 80 "/protoarea/ROW22" "ROW22"
+ U12 22
+ U13 22
+ U14 22
+ U11 22
+Net 81 "/protoarea/ROW13" "ROW13"
+ U13 13
+ U11 13
+ U14 13
+ U12 13
+Net 82 "/protoarea/ROW23" "ROW23"
+ U11 23
+ U12 23
+ U14 23
+ U13 23
+Net 83 "/protoarea/ROW14" "ROW14"
+ U11 14
+ U13 14
+ U14 14
+ U12 14
+Net 84 "/protoarea/ROW24" "ROW24"
+ U13 24
+ U12 24
+ U14 24
+ U11 24
+Net 85 "/protoarea/ROW15" "ROW15"
+ U11 15
+ U12 15
+ U13 15
+ U14 15
+Net 86 "/protoarea/ROW25" "ROW25"
+ U11 25
+ U12 25
+ U13 25
+ U14 25
+Net 87 "/protoarea/ROW16" "ROW16"
+ U13 16
+ U12 16
+ U14 16
+ U11 16
+Net 88 "/protoarea/ROW17" "ROW17"
+ U13 17
+ U14 17
+ U11 17
+ U12 17
+Net 89 "/protoarea/ROW18" "ROW18"
+ U14 18
+ U12 18
+ U13 18
+ U11 18
+Net 90 "/protoarea/ROW26" "ROW26"
+ U11 26
+ U14 26
+ U12 26
+ U13 26
+}
+#End
